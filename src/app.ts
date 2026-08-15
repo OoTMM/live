@@ -53,8 +53,6 @@ class App {
       img.src = url;
       this.images.set(key, img);
     });
-
-    console.log(this.images);
   }
 }
 
